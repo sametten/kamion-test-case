@@ -1,0 +1,25 @@
+html {
+    @apply 
+        h-full;
+}
+
+body {
+    @apply
+        font-['axiforma']
+        bg-kamion-surface-100
+        h-full
+        flex
+        flex-col;
+}
+
+#app {
+    @apply 
+        flex
+        flex-col
+        h-full;
+}
+
+main {
+    @apply 
+        flex-grow;
+}

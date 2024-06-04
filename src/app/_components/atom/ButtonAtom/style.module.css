@@ -1,0 +1,75 @@
+/* Button */
+.button-atom {
+    @apply
+        bg-kamion-surface-500
+        text-white
+        text-base
+        duration-300
+        transition-all
+        cursor-pointer
+        inline-flex
+        items-center
+        justify-center
+        w-fit
+        select-none
+        rounded-xl
+        px-16
+        py-6
+        hover:bg-blue-700
+        focus:bg-blue-700
+        hover:ring-4
+        focus:ring-4
+        hover:active:ring-offset-2
+        focus:active:ring-offset-2
+}
+
+/* Button icon */
+.button-atom svg {
+    @apply 
+        inline-block
+        ml-3
+        w-4
+        h-4
+}
+
+.button-atom.--disabled svg {
+    @apply 
+        text-kamion-surface-500
+}
+
+/* Button disabled */
+.button-atom.--disabled {
+    @apply 
+        pointer-events-none
+        cursor-default
+        bg-kamion-surface-200
+        text-kamion-surface-500
+}
+
+/* Button block */
+.button-atom.--block {
+    @apply 
+        w-full
+        text-center;
+}
+
+/* Button skeleton */
+.button-atom-skeleton {
+    @apply
+        w-fit
+        rounded-xl
+        pointer-events-none
+        animate-pulse
+        px-16
+        py-6
+        bg-kamion-surface-100
+        text-transparent
+}
+
+.button-atom-skeleton.--block {
+    @apply 
+        w-full
+        text-center;
+}
+
+

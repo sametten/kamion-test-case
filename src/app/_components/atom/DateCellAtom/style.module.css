@@ -1,0 +1,29 @@
+.date-cell-atom {
+
+}
+
+.date-cell-atom__content {
+    @apply
+        text-xs
+        font-kamion-book
+        text-kamion-blue-900;
+}
+
+/* Skeleton */
+.date-cell-atom-skeleton {
+    @apply
+        animate-pulse
+        duration-300
+        flex
+        justify-center
+        items-center
+} 
+
+.date-cell-atom-skeleton .date-cell-atom-skeleton__content {
+    @apply
+        block
+        bg-kamion-surface-200
+        w-20
+        h-4
+        rounded-md
+}

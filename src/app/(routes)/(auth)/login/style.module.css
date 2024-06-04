@@ -1,0 +1,198 @@
+/* Login */
+.login {
+    @apply
+        flex
+        items-center
+        justify-center
+        h-full
+}
+
+/* Signup splash */
+.login__sign-up-splash {
+    @apply
+        flex
+        w-1/2
+        rounded-3xl
+        bg-top
+        bg-no-repeat
+        bg-cover
+        overflow-hidden
+        h-full
+}
+
+.sign-up-splash__inner {
+    @apply
+        flex
+        flex-col
+        items-center
+        justify-end
+        py-16
+        px-9
+        bg-gradient-to-b
+        from-transparent
+        to-kamion-blue-700
+        w-full
+        h-full
+}
+
+.sign-up-splash__inner > span {
+    @apply
+        text-white
+        text-base
+        font-kamion-regular
+        pb-8
+}
+
+.sign-up-splash__inner h6 {
+    @apply
+        text-white
+        text-kamion-xl
+        text-center
+        font-kamion-regular
+        pb-6
+}
+
+.sign-up-splash__inner p {
+    @apply
+        text-white
+        text-center
+        font-kamion-light
+        text-2xl
+        pb-10
+}
+
+.sign-up-splash__inner p strong {
+    @apply
+        font-kamion-regular
+        text-kamion-blue-300
+}
+
+.cta__button {
+    @apply
+        bg-kamion-blue-200
+        text-white
+        text-xl
+        font-kamion-light
+        duration-300
+        transition-all
+        cursor-pointer
+        inline-flex
+        items-center
+        justify-center
+        w-fit
+        select-none
+        rounded-full
+        px-20
+        py-8
+        hover:bg-kamion-blue-300
+        focus:bg-kamion-blue-300
+        hover:ring-4
+        focus:ring-4
+        hover:active:ring-offset-kamion-blue-200
+        hover:active:ring-offset-2
+        focus:active:ring-offset-2
+
+}
+
+.cta__button strong {
+    @apply
+        font-kamion-book
+        underline
+
+}
+
+.cta__button svg {
+    @apply
+        inline-block
+        flex-shrink-0
+        ml-3
+        w-6
+        h-6
+}
+
+/* Login form */
+.login__form {
+    @apply
+        relative
+        w-1/2
+        px-28
+        bg-white
+        rounded-3xl
+        h-full
+        flex
+        flex-col
+        justify-center
+}
+
+/* Form header */
+.form__header {
+    @apply
+        pb-16
+}
+
+.form__header img {
+    @apply
+        mb-9
+}
+
+.form__header h1 {
+    @apply
+        text-kamion-blue-800
+        text-kamion-lg
+        font-kamion-light
+}
+
+.form__header h1 strong {
+    @apply
+        font-kamion-book
+}
+
+
+/* Form inputs */
+.form__inputs {
+    @apply
+        pb-24
+
+}
+
+.form__inputs form {
+    @apply
+        flex
+        flex-col
+        gap-6
+}
+
+.form__inputs .inputs__button {
+    @apply
+        ml-auto
+} 
+
+
+
+/* Form footer */
+
+.form__footer {
+    @apply
+        absolute
+        bottom-0
+        left-0
+        w-full
+        flex
+        justify-center
+        items-center
+        h-16
+}
+
+.form__footer p {
+    @apply
+        text-center
+        text-kamion-blue-900
+        font-kamion-light
+        text-base
+}
+
+.form__footer p strong {
+    @apply 
+        font-kamion-book
+        
+}

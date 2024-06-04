@@ -1,0 +1,81 @@
+/* Truck Cell Atom */
+
+.truck-cell-atom {
+    @apply
+        w-fit
+        flex
+        justify-center
+        items-center;
+}
+
+/* Icon */
+.truck-cell-atom__icon {
+    @apply
+        bg-kamion-blue-100
+        rounded-full
+        justify-center
+        items-center
+        flex
+        flex-shrink-0
+        w-10
+        h-10
+}
+
+.truck-cell-atom__icon svg {
+    @apply
+        text-kamion-blue-700
+        h-6
+        w-6
+}
+
+
+/* Content */
+.truck-cell-atom__content {
+    @apply
+        pl-3
+        text-xs
+        font-kamion-book
+        text-kamion-blue-900
+}
+
+.truck-cell-atom__content strong {
+    @apply
+        block
+        font-kamion-semibold
+}
+
+
+/* Skeleton */
+.truck-cell-atom-skeleton  {
+    @apply
+        flex
+        animate-pulse
+        justify-center
+        items-center
+        duration-300
+}
+
+.truck-cell-atom-skeleton__icon {
+    @apply
+        bg-kamion-surface-200
+        flex-shrink-0
+        w-10
+        h-10
+        rounded-full
+        
+}
+
+.truck-cell-atom-skeleton__content span {
+    @apply 
+        block
+        bg-kamion-surface-200
+        w-20
+        h-4
+        rounded-md
+        ml-3
+}
+
+.truck-cell-atom-skeleton__content span:last-child {
+    @apply
+        mt-2
+}

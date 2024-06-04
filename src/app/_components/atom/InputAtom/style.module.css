@@ -1,0 +1,257 @@
+/* Input */
+.input-atom {
+    @apply
+        w-fit
+}
+
+.input-atom.--block {
+    @apply
+        w-full
+}
+
+/* Input body */
+.input-atom__body {
+    @apply
+        relative
+}
+
+/* Input body input */
+.input-atom__body .body__field {
+    @apply
+        outline-none
+        bg-transparent
+        relative
+        z-20
+        px-6
+        py-8
+        text-kamion-blue-800
+}
+
+.input-atom.--error .input-atom__body .body__field {
+    @apply
+        text-kamion-red-600
+}
+
+.input-atom.--disabled .body__field {
+    @apply
+        text-kamion-surface-600
+}
+
+
+.input-atom.--icon-on-left .body__field {
+    @apply
+        pl-16
+}
+
+.input-atom.--icon-on-right .body__field {
+    @apply
+        pr-16
+}
+
+.input-atom.--filled .body__field,
+.input-atom__body .body__field:focus {
+    @apply
+        pt-11
+        pb-5
+}
+
+.input-atom.--block .input-atom__body .body__field {
+    @apply
+        w-full
+}
+
+/* Input body label */
+.input-atom__body .body__label {
+    @apply
+        transition-all
+        duration-300
+        absolute
+        font-kamion-regular
+        pl-6
+        block
+        top-1/2
+        text-base
+        text-kamion-blue-800
+        -mt-3
+        z-10
+}
+
+.input-atom.--icon-on-left .input-atom__body .body__label {
+    @apply
+        pl-16
+}
+
+.input-atom.--filled .body__label,
+.input-atom__body .body__field:focus ~ .body__label {
+    @apply
+        -translate-y-[0.5rem]
+        text-kamion-surface-500
+        text-xs
+}
+
+.input-atom.--error .input-atom__body .body__field:focus ~ .body__label,
+.input-atom.--error .body__label {
+    @apply
+        text-red-500
+}
+
+/* Input body svg */
+.input-atom__body svg {
+    @apply
+        absolute
+        top-1/2
+        -translate-y-3
+        text-blue-700
+        w-6
+        h-6
+}
+
+.input-atom.--error svg {
+    @apply
+        text-kamion-red-600
+}
+
+.input-atom.--disabled svg {
+    @apply
+        text-kamion-surface-600
+}
+
+.input-atom.--icon-on-right svg {
+    @apply
+        right-6
+        left-auto
+}
+
+.input-atom.--icon-on-left svg {
+    @apply
+        left-6
+        right-auto
+}
+
+
+/* Input body bg */
+.body__bg {
+    @apply
+        duration-300
+        transition-all
+        top-0
+        left-0
+        rounded-lg
+        absolute
+        w-full
+        h-full
+        ring-1
+        bg-white
+        ring-kamion-surface-200
+}
+
+.input-atom.--error input:focus ~ .body__bg,
+.input-atom.--error .body__bg {
+    @apply
+        ring-kamion-red-600
+}
+
+.input-atom.--disabled .body__bg {
+    @apply
+        bg-kamion-surface-50
+}
+
+.input-atom__body input:focus ~ .body__bg {
+    @apply
+        ring-2
+        ring-kamion-surface-500
+        ring-offset-1
+}
+
+/* Input error */
+.input-atom.--error .input-atom__error {
+    @apply
+        block
+        text-right
+        text-kamion-red-600
+        text-xs
+        mt-6
+}
+
+
+/* Input search */
+.input-atom.--search {
+    @apply
+        min-w-[280px]
+        px-0
+}
+
+.input-atom.--search input {
+    @apply
+        w-full
+        text-sm
+        px-3.5
+        py-3.5
+}
+
+
+.input-atom.--search label {
+    @apply
+        pl-3.5
+}
+
+
+.input-atom.--search.--icon-on-right .body__field {
+    @apply
+        pr-8
+}
+
+.input-atom.--search.--icon-on-left .body__field {
+    @apply
+        pl-8
+}
+
+.input-atom.--search.--icon-on-right svg {
+    @apply
+        right-2
+        left-auto
+}
+
+.input-atom.--search.--icon-on-left svg {
+    @apply
+        left-2
+        right-auto
+}
+
+.input-atom.--search.--filled .body__field,
+.input-atom.--search .input-atom__body .body__field:focus {
+    @apply
+        px-3.5
+        py-3.5
+}
+
+.input-atom.--search.--filled .body__label,
+.input-atom.--search .input-atom__body .body__field:focus ~ .body__label {
+    @apply
+        opacity-0;
+}
+
+
+
+/* Input skeleton */
+
+.input-atom-skeleton {
+    @apply
+        block
+        animate-pulse
+        transition-all
+        duration-300
+        rounded-xl
+        w-fit
+        px-6
+        py-8
+        bg-kamion-surface-100
+        text-transparent
+        min-w-[259px]
+        select-none
+}
+
+.input-atom-skeleton.--block {
+    @apply
+        w-full
+}

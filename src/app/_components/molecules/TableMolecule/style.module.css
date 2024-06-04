@@ -1,0 +1,52 @@
+table.table-molecule {
+    @apply
+        w-full
+        !border-separate
+        border-spacing-y-0.5
+}
+
+/* Head */
+thead.table-molecule__head {}
+
+
+thead.table-molecule__head tr th {
+    @apply
+        text-kamion-surface-600
+        font-kamion-medium
+        px-2
+        pt-2
+        pb-4
+        text-xs
+}
+
+thead.table-molecule__head tr th span {
+    @apply
+        animate-pulse
+}
+    
+
+table.table-molecule.--skeleton  tr th span {
+    @apply
+        bg-kamion-surface-100
+        rounded-full
+        text-transparent
+
+}
+
+/* Body */
+tbody.table-molecule__body tr td {
+    @apply
+        px-3
+        py-6
+        bg-white
+}
+
+tbody.table-molecule__body tr td:first-child {
+    @apply
+        rounded-l-xl
+}
+
+tbody.table-molecule__body tr td:last-child {
+    @apply
+        rounded-r-xl
+}

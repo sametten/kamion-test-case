@@ -1,0 +1,19 @@
+/* Header */
+.header {
+    @apply
+        bg-white
+}
+
+/* Header Logo */
+.header__inner {
+    @apply
+        overflow-hidden 
+        h-[100px]
+        w-full
+        ml-auto
+        mr-auto
+        max-w-[1280px]
+        px-4
+        flex
+        items-center
+}

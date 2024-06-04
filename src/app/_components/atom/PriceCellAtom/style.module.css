@@ -1,0 +1,32 @@
+.price-cell-atom {
+    @apply text-xs
+    px-3
+    py-2
+    font-kamion-semibold
+    text-kamion-blue-900
+    bg-kamion-surface-50
+    rounded-full
+    text-center
+}
+
+.price-cell-atom__content {}
+
+
+/* Skeleton */
+.price-cell-atom-skeleton {
+    @apply
+        animate-pulse
+        duration-300
+        flex
+        justify-center
+        items-center
+} 
+
+.price-cell-atom-skeleton .price-cell-atom-skeleton__content {
+    @apply
+        block
+        bg-kamion-surface-200
+        w-20
+        h-6
+        rounded-md
+}

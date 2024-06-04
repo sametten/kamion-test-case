@@ -1,0 +1,16 @@
+.page-header-molecule {
+    @apply
+        w-full
+        flex
+        justify-between
+}
+
+.page-header-molecule__title h1 {
+    @apply
+        text-2xl
+        font-kamion-regular
+        text-kamion-blue-900
+}
+
+
+.page-header-molecule__action {}

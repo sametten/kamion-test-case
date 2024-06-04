@@ -1,0 +1,64 @@
+.tag-cell-atom {
+    @apply
+        w-fit
+        text-xs
+        px-3
+        py-2
+        font-kamion-semibold
+        rounded-full
+}
+
+.tag-cell-atom__content {
+}
+
+/* Block */
+.tag-cell-atom--block .tag-cell-atom__content  {
+    @apply
+        w-full
+}
+
+
+.tag-cell-atom--success {
+    @apply
+        bg-kamion-green-100
+        text-kamion-green-600
+}
+
+.tag-cell-atom--warning {
+    @apply
+        bg-kamion-yellow-50
+        text-kamion-yellow-600
+}
+
+.tag-cell-atom--danger {
+    @apply
+        bg-kamion-red-100
+        text-kamion-red-600
+}
+
+.tag-cell-atom--info {
+    @apply
+        bg-kamion-surface-200
+        text-kamion-blue-900
+}
+
+
+
+/* Skeleton */
+.tag-cell-atom-skeleton {
+    @apply
+        animate-pulse
+        duration-300
+        flex
+        justify-center
+        items-center
+} 
+
+.tag-cell-atom-skeleton .tag-cell-atom-skeleton__content {
+    @apply
+        block
+        bg-kamion-surface-200
+        w-20
+        h-6
+        rounded-md
+}

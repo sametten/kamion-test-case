@@ -1,0 +1,75 @@
+/* Company Cell Atom */
+
+.company-cell-atom {
+    @apply
+        w-fit
+        flex
+        justify-center
+        items-center;
+}
+
+/* Icon */
+.company-cell-atom__icon {
+    @apply
+        bg-kamion-iris-50
+        rounded-full
+        justify-center
+        items-center
+        flex
+        flex-shrink-0
+        w-10
+        h-10
+}
+
+.company-cell-atom__icon svg {
+    @apply
+        text-kamion-iris-600
+        h-6
+        w-6
+}
+
+
+/* Content */
+.company-cell-atom__content {
+    @apply
+        pl-3
+        text-xs
+        font-kamion-semibold
+        text-kamion-blue-900
+}
+
+
+/* Skeleton */
+.company-cell-atom-skeleton  {
+    @apply
+        flex
+        animate-pulse
+        justify-center
+        items-center
+        duration-300
+}
+
+.company-cell-atom-skeleton__icon {
+    @apply
+        bg-kamion-surface-200
+        flex-shrink-0
+        w-10
+        h-10
+        rounded-full
+        
+}
+
+.company-cell-atom-skeleton__content span {
+    @apply 
+        block
+        bg-kamion-surface-200
+        w-20
+        h-4
+        rounded-md
+        ml-3
+}
+
+.company-cell-atom-skeleton__content span:last-child {
+    @apply
+        mt-2
+}

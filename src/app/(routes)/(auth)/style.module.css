@@ -1,0 +1,30 @@
+.auth-layout {
+    @apply 
+        mx-auto
+        my-4
+        w-full
+        h-full
+        flex
+        flex-row
+        items-center
+        min-h-[1200px]
+        max-w-[1700px]
+}
+
+.auth-layout__inner {
+    @apply 
+        w-full
+}
+
+.inner__content {
+    @apply 
+        p-4
+}
+
+.content__wrapper {
+    @apply 
+        bg-white
+        p-8
+        rounded-[2rem]
+        h-[1200px] 
+}

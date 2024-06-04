@@ -1,0 +1,31 @@
+.id-cell-atom {
+
+}
+
+.id-cell-atom__content {
+    @apply
+        text-xs
+        font-kamion-semibold
+        text-kamion-blue-900
+        bg-kamion-surface-50
+        rounded-full
+}
+
+
+/* Skeleton */
+.id-cell-atom-skeleton {
+    @apply
+        animate-pulse
+        duration-300
+        flex
+        justify-center
+        items-center
+} 
+
+.id-cell-atom-skeleton .id-cell-atom-skeleton__content {
+    @apply
+        bg-kamion-surface-200
+        w-8
+        h-4
+        rounded-md
+}

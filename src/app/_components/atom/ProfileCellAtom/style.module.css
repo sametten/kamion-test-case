@@ -1,0 +1,101 @@
+/* Profile Cell Atom */
+.profile-cell-atom {
+    @apply
+        w-fit
+        flex
+        justify-center
+        items-center;
+}
+
+/* Icon */
+.profile-cell-atom__img {
+    @apply
+        overflow-hidden
+        rounded-full
+        flex-shrink-0
+        w-10
+        h-10
+}
+
+.profile-cell-atom__icon svg {
+    @apply
+        text-kamion-blue-700
+        h-6
+        w-6
+}
+
+
+/* Content */
+.profile-cell-atom__content {
+    @apply
+        pl-3
+        text-xs
+        font-kamion-book
+        text-kamion-blue-900
+}
+
+.profile-cell-atom__content strong {
+    @apply
+        block
+        font-kamion-semibold
+}
+
+/* Skeleton */
+.profile-cell-atom-skeleton  {
+    @apply
+        flex
+        animate-pulse
+        justify-center
+        items-center
+        duration-300
+        w-[200px]
+}
+
+.profile-cell-atom-skeleton spam {
+    @apply
+        block
+        bg-kamion-surface-200
+        w-20
+        h-4
+        rounded-md
+}
+
+.profile-cell-atom-skeleton spam:last-child {
+    @apply
+        mt-2
+}
+
+/* Skeleton */
+.profile-cell-atom-skeleton  {
+    @apply
+        flex
+        animate-pulse
+        justify-center
+        items-center
+        duration-300
+}
+
+.profile-cell-atom-skeleton__icon {
+    @apply
+        bg-kamion-surface-200
+        flex-shrink-0
+        w-10
+        h-10
+        rounded-full
+        
+}
+
+.profile-cell-atom-skeleton__content span {
+    @apply
+        block
+        bg-kamion-surface-200
+        w-20
+        h-4
+        rounded-md
+        ml-3
+}
+
+.profile-cell-atom-skeleton__content span:last-child {
+    @apply
+        mt-2
+}

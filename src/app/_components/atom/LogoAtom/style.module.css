@@ -1,0 +1,26 @@
+.logo-atom {
+    @apply
+        flex
+        justify-center
+        items-center;
+}
+
+.logo-atom img {
+    @apply
+        h-10
+        w-10
+}
+
+.logo-atom span {
+    @apply
+        pl-3
+        text-sm
+        font-kamion-regular
+        text-kamion-surface-600
+}
+
+.logo-atom span strong {
+    @apply
+        font-kamion-semibold
+        text-kamion-blue-700
+}

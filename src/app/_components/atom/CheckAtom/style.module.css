@@ -1,0 +1,18 @@
+.check-atom {
+    @apply
+        bg-white
+        ring-2
+        w-4
+        h-4
+        ring-kamion-surface-500
+        ring-offset-1
+        rounded-sm
+}
+
+.check-atom--skeleton {
+    @apply
+        bg-kamion-surface-200
+        rounded-md
+        w-4
+        h-4
+}

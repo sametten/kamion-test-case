@@ -1,0 +1,63 @@
+.route-cell-atom {
+
+}
+
+.route-cell-atom__row {
+    @apply 
+        text-xs
+        text-kamion-blue-900
+        flex
+}
+
+.route-cell-atom__row:first-child {
+    @apply
+        mb-2
+}
+
+.route-cell-atom__row i {
+    @apply
+        block
+        flex-shrink-0
+        mr-2
+        mt-0.5
+        w-2.5
+        h-2.5
+        rounded-full   
+}
+
+.route-cell-atom__row:first-child i {
+    @apply
+        bg-kamion-blue-700
+}
+
+.route-cell-atom__row:last-child i {
+    @apply
+        border
+        border-kamion-blue-600
+}
+
+
+/* Skeleton */
+.route-cell-atom-skeleton {
+    @apply
+        flex-col
+        animate-pulse
+        justify-center
+        items-center
+        duration-300
+}
+
+.route-cell-atom-skeleton span {
+    @apply 
+        block
+        bg-kamion-surface-200
+        w-28
+        h-4
+        rounded-md
+        ml-3
+}
+
+.route-cell-atom-skeleton span:last-child {
+    @apply
+        mt-2
+}

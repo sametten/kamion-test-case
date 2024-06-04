@@ -1,0 +1,19 @@
+/* Footer */
+.footer {
+    @apply
+        bg-white
+}
+
+/* Footer inner */
+.footer__inner {
+    @apply
+        overflow-hidden 
+        h-[50px]
+        w-full
+        ml-auto
+        mr-auto
+        max-w-[1280px]
+        px-4
+        flex
+        items-center
+}
